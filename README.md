@@ -1,4 +1,4 @@
-# uxor
+# torgaddon
 
 A project template utilizing Axum (rust) as the backend REST API and application server, SASS partials for the organizing stylesheets along with [USWDS](https://designsystem.digital.gov/) as a starter design system, and TypeScript for the client-side browser code.
 
@@ -70,7 +70,7 @@ Run all three scripts with `tmux`.
 Kill all `tmux` scripts by killing the session.
 
 ```shell
-tmux kill-session -t uxor
+tmux kill-session -t torgaddon
 ```
 
 ### Step 5, Option 2. Build Browser Code for Deployment
