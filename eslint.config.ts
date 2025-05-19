@@ -4,7 +4,7 @@ import pluginTsEsLint from "typescript-eslint";
 import pluginSecurity from "eslint-plugin-security";
 import { Linter } from "eslint";
 
-const config: Linter.Config[] = [
+const Config: Linter.Config[] = [
   { files: ["**/*.ts"] },
   { languageOptions: { globals: globals.browser } },
   pluginJs.configs.recommended,
@@ -12,4 +12,4 @@ const config: Linter.Config[] = [
   ...(pluginTsEsLint.configs.recommended as Linter.Config[]),
 ];
 
-export default config;
+export default Config;

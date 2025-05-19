@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{{ assets_url }}/css/styles.css" />
+    <script src="{{ assets_url }}/uswds/js/uswds-init.min.js"></script>
+    <script defer src="{{ assets_url }}/uswds/js/uswds.min.js"></script>
+    <script defer src="{{ assets_url }}/js/bundle.js"></script>
+    <title>{% block title %}{% endblock %}</title>{% block head %}{% endblock %}
+  </head>
+  <body>{% block content %}{% endblock %}  </body>
+</html>
