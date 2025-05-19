@@ -1,6 +1,6 @@
 # torgaddon
 
-A project template utilizing Axum (rust) as the backend REST API and application server, SASS partials for the organizing stylesheets along with [USWDS](https://designsystem.digital.gov/) as a starter design system, and TypeScript for the client-side browser code.
+A project template utilizing Axum (rust) as the backend application server with [Askama](https://github.com/askama-rs/askama) templates, SASS partials for the organizing stylesheets along with [USWDS](https://designsystem.digital.gov/) as a starter design system, and TypeScript with [Vite](https://vite.dev/) for the client-side browser code.
 
 ## Developer (System) Requirements
 
@@ -74,6 +74,8 @@ tmux kill-session -t torgaddon
 ```
 
 ### Step 5, Option 2. Build Browser Code for Deployment
+
+Make sure to initialize USWDS from Step 3. prior to building the JS and CSS bundles. Or else the HTML and CSS will reference scripts, fonts, and images not yet moved to the `public` directory.
 
 ```shell
 npm run build   # One-time builds TS -> JS (bundle) and SCSS -> CSS (bundle)
