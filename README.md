@@ -32,7 +32,7 @@ npm install
 
 ### Step 3. Initialize USWDS
 
-`TODO` Explain: Why do we need USWDS? We could remove `uswds-compile` (instead use `vite` to compile and watch our SASS) and we would no longer need the `gulpfile.js` and two setup steps (this and the next one). Seems like a heavy dependency.
+`TODO` Explain: Why do we need USWDS? We could remove [`uswds-compile`](https://github.com/uswds/uswds-compile) (instead use `vite` to compile and watch our SASS) and we would no longer need the `gulpfile.js` and two setup steps (this and the next one). Seems like a heavy dependency.
 
 ```shell
 npm run uswds-init
