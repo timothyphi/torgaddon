@@ -1,6 +1,6 @@
 # torgaddon
 
-A project template utilizing Axum (rust) as the backend application server with [Askama](https://github.com/askama-rs/askama) templates, SASS partials for the organizing stylesheets along with [USWDS](https://designsystem.digital.gov/) as a starter design system, and TypeScript with [Vite](https://vite.dev/) for the client-side browser code.
+A project template utilizing [Axum](https://github.com/tokio-rs/axum) as the backend application server, [Askama](https://github.com/askama-rs/askama) for HTML templating, SASS partials for the organizing stylesheets along with [USWDS](https://designsystem.digital.gov/) as a starter design system, and TypeScript with [Vite](https://vite.dev/) for the bundled, client-side, browser code.
 
 ## Developer (System) Requirements
 
