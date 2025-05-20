@@ -173,6 +173,8 @@ target/
 
 # project specific
 
+.DS_Store
+
 # We ignore these because they're reserved for USWDS (for now)
 public/images
 public/fonts
