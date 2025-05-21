@@ -17,6 +17,7 @@ use tower_http::services::ServeDir;
 pub struct AppConfigState {
     pub axum_database_url: String,
     pub axum_database_queries: PathBuf,
+    pub axum_log_dir: PathBuf,
     pub axum_secret_key: String,
     pub axum_assets_file_dir: PathBuf,
     pub axum_assets_url: String,
