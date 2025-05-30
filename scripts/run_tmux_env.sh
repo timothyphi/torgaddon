@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SESSION="torgaddon"
+SESSION="uswds-axum-template"
 
 SCRIPT_PATH="$(readlink -f "$0")"
 SCRIPT_DIR="$(dirname "$SCRIPT_PATH")"
