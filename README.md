@@ -34,13 +34,21 @@ npm install
 ./scripts/uswds_init.sh
 ```
 
-### Step 4. (Option 1) Build Browser Code for Deployment
+### Step 4. Configure environment file
+
+```shell
+cp ./server/sample.env ./server/.env
+```
+
+Fill out environment file for your needs.
+
+### Step 5. (Option 1) Build Browser Code for Deployment
 
 ```shell
 npm run build   # One-time builds TS -> JS (bundle) and SCSS -> CSS (bundle)
 ```
 
-### Step 4. (Option 2) Run tools in development
+### Step 5. (Option 2) Run tools in development
 
 ```shell
 npm run server  # Watches `server` directory, triggers rebuild on change
@@ -48,7 +56,7 @@ npm run scss    # Watches `styles` directory, triggers rebuild on change
 npm run ts      # Watches `browser` directory, triggers rebuild on change
 ```
 
-### Step 4. (Option 3) Run tools in development
+### Step 5. (Option 3) Run tools in development
 
 Run all three scripts with `tmux`.
 
