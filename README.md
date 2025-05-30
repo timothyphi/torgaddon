@@ -6,11 +6,10 @@ A project template utilizing [Axum](https://github.com/tokio-rs/axum) as the bac
 
 These aren't actually hard requirements, just what's on my machine
 
-- git version 2.39.5
-- rustc 1.86.0
-- nvm version 0.37.2
-- node set as version v23.10.0
-- npm set as version v11.2.0
+- git v2.39.5
+- rustc v1.86.0
+- node v23.10.0
+- npm v11.2.0
 
 ## Production Requirements
 
