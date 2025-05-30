@@ -28,7 +28,7 @@ Check [Rust Docs](https://doc.rust-lang.org/book/ch01-01-installation.html#insta
 npm install
 ```
 
-### 3. Initialize USWDS
+### Step 3. Initialize USWDS
 
 ```shell
 ./scripts/uswds_init.sh
