@@ -24,7 +24,7 @@ Check [Rust Docs](https://doc.rust-lang.org/book/ch01-01-installation.html#insta
 ### Step 2. Build Axum backend
 
 ```shell
-cd server && cargo build
+cd server && cargo build && cd ..
 ```
 
 ### Step 3. Install JavaScript dependencies
@@ -50,15 +50,29 @@ Fill out environment file for your needs.
 ### Step 6. (Option 1) Build Browser Code for Deployment
 
 ```shell
-npm run build   # One-time builds TS -> JS (bundle) and SCSS -> CSS (bundle)
+npm run build
 ```
+
+- One-time builds TS -> JS (bundle) and SCSS -> CSS (bundle)
 
 ### Step 6. (Option 2) Run tools in development
 
+Watches `server` directory, triggers rebuild on change
+
 ```shell
-npm run server  # Watches `server` directory, triggers rebuild on change
-npm run scss    # Watches `styles` directory, triggers rebuild on change
-npm run ts      # Watches `browser` directory, triggers rebuild on change
+npm run server
+```
+
+Watches `styles` directory, triggers rebuild on change
+
+```shell
+npm run scss
+```
+
+Watches `browser` directory, triggers rebuild on change
+
+```shell
+npm run ts
 ```
 
 ### Step 6. (Option 3) Run tools in development
