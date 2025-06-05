@@ -87,7 +87,7 @@ Check [achecker npm listing](https://www.npmjs.com/package/accessibility-checker
 
 ## Running the application in Production
 
-It's recommended to build the browser assets (steps 3, 4, and 6) on a seperate machine.
+It's recommended to build the server binary (step 2) and browser assets (steps 3, 4, and 6) on a seperate machine.
 
 1. Move those assets in `public` to the production machine
 
@@ -95,6 +95,9 @@ It's recommended to build the browser assets (steps 3, 4, and 6) on a seperate m
 
 1. Run the Axum server
 
-## Relevant Dependency Documentation
+## Supplemental Documentation
 
-None (yet)
+- [axum](https://docs.rs/axum/latest/axum/)
+- [uswds](https://designsystem.digital.gov/)
+- [askama](https://docs.rs/askama/latest/askama/)
+- [vite](https://vite.dev/)
