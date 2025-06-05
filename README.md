@@ -78,3 +78,17 @@ npm run acheck -- http://localhost:8000
 Runs the accessibility check on the URL provided and generates results.
 
 Check [achecker npm listing](https://www.npmjs.com/package/accessibility-checker#Configuration) for more information.
+
+## Running the application in Production
+
+It's recommended to build the browser assets (steps 2, 3, and 5) on a seperate machine.
+
+1. Move those assets to the production machine
+
+1. Setup the environment file (step 4)
+
+1. Run the Axum server
+
+## Relevant Dependency Documentation
+
+None (yet)
