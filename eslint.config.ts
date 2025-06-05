@@ -1,4 +1,3 @@
-
 import globals from "globals";
 import pluginJs from "@eslint/js";
 import pluginTsEsLint from "typescript-eslint";
@@ -40,4 +39,3 @@ const config: Linter.Config[] = [
 ];
 
 export default config;
-
