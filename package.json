@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "type": "module",
   "scripts": {
-    "server": "cd server/ && cargo run",
+    "server": "cd server && cargo run",
     "scss": "npx gulp watch",
     "ts": "npx vite build --watch",
     "uswds-init": "npx gulp init",
