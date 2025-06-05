@@ -187,5 +187,5 @@ public/js
 # Accessibility checker results
 aresults
 
-*/**/logs
+*/**/.logs
 NOTES.md
