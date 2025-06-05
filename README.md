@@ -21,19 +21,25 @@ These aren't actually hard requirements, just what's on my machine
 
 Check [Rust Docs](https://doc.rust-lang.org/book/ch01-01-installation.html#installing-rustup-on-linux-or-macos).
 
-### Step 2. Install JavaScript dependencies
+### Step 2. Build Axum backend
+
+```shell
+cd server && cargo build
+```
+
+### Step 3. Install JavaScript dependencies
 
 ```shell
 npm install
 ```
 
-### Step 3. Initialize USWDS
+### Step 4. Initialize USWDS
 
 ```shell
 ./scripts/uswds_init.sh
 ```
 
-### Step 4. Configure environment file
+### Step 5. Configure environment file
 
 ```shell
 cp ./server/sample.env ./server/.env
@@ -41,13 +47,13 @@ cp ./server/sample.env ./server/.env
 
 Fill out environment file for your needs.
 
-### Step 5. (Option 1) Build Browser Code for Deployment
+### Step 6. (Option 1) Build Browser Code for Deployment
 
 ```shell
 npm run build   # One-time builds TS -> JS (bundle) and SCSS -> CSS (bundle)
 ```
 
-### Step 5. (Option 2) Run tools in development
+### Step 6. (Option 2) Run tools in development
 
 ```shell
 npm run server  # Watches `server` directory, triggers rebuild on change
@@ -55,7 +61,7 @@ npm run scss    # Watches `styles` directory, triggers rebuild on change
 npm run ts      # Watches `browser` directory, triggers rebuild on change
 ```
 
-### Step 5. (Option 3) Run tools in development
+### Step 6. (Option 3) Run tools in development
 
 Run all three scripts with `tmux`.
 
@@ -81,11 +87,11 @@ Check [achecker npm listing](https://www.npmjs.com/package/accessibility-checker
 
 ## Running the application in Production
 
-It's recommended to build the browser assets (steps 2, 3, and 5) on a seperate machine.
+It's recommended to build the browser assets (steps 3, 4, and 6) on a seperate machine.
 
-1. Move those assets to the production machine
+1. Move those assets in `public` to the production machine
 
-1. Setup the environment file (step 4)
+1. Setup the environment file (step 5)
 
 1. Run the Axum server
 
