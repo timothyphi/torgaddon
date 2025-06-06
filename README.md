@@ -47,15 +47,13 @@ cp ./server/sample.env ./server/.env
 
 Fill out environment file for your needs.
 
-### Step 6. (Option 1) Build Browser Code for Deployment
+### Step 6. Build browser code
 
 ```shell
 npm run build
 ```
 
-- One-time builds TS -> JS (bundle) and SCSS -> CSS (bundle)
-
-### Step 6. (Option 2) Run tools in development
+### Step 7. (Option 1) Run dev tools individually
 
 Watches `server` directory, triggers rebuild on change.
 
@@ -81,9 +79,9 @@ Watches `browser` directory, triggers rebuild on change.
 npm run ts
 ```
 
-### Step 6. (Option 3) Run tools in development
+### Step 7. (Option 2) Run dev tools concurrently using tmux
 
-Run all three scripts with `tmux`.
+You must have `tmux` installed if you want to use this option.
 
 ```shell
 ./scripts/run_tmux_env.sh
@@ -95,7 +93,7 @@ Kill all `tmux` scripts by killing the session.
 tmux kill-session -t uswds-axum-template
 ```
 
-### Completely Optional: Run accessibility check
+### Optional: Run accessibility check
 
 ```shell
 npm run acheck -- http://localhost:8000
@@ -105,7 +103,7 @@ Runs the accessibility check on the URL provided and generates results.
 
 Check [achecker npm listing](https://www.npmjs.com/package/accessibility-checker#Configuration) for more information.
 
-## Running the application in Production
+## Deploying to production
 
 It's recommended to build the server binary (step 2) and browser assets (steps 3, 4, and 6) on a seperate machine.
 
