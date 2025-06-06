@@ -1,5 +1,4 @@
 {
-  "$schema": "https://json.schemastore.org/package.json",
   "name": "uswds-axum-template",
   "version": "0.0.1",
   "type": "module",
@@ -8,7 +7,7 @@
     "scss": "npx sass styles/main.scss public/css/bundle.css --watch",
     "uswds": "npx gulp watch",
     "ts": "npx vite build --watch",
-    "build": "npx vite build && npx gulp compile && npx sass styles/main.scss public/css/bundle.css",
+    "build": "npx vite build && npx sass styles/main.scss public/css/bundle.css && npx gulp compile",
     "eslint": "npx eslint",
     "e2e": "npx playwright test",
     "test": "echo \"Error: no test specified\" && exit 1",
