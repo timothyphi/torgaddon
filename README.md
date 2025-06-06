@@ -61,13 +61,13 @@ Watches `server` directory, triggers rebuild on change.
 npm run server
 ```
 
-Watches `styles/main.scss` entry point, triggers rebuild on change.
+Watches `styles/main.scss` entry point, triggers rebuild on change in `styles` directory.
 
 ```shell
 npm run scss
 ```
 
-Watches `styles/vendors/uswds/styles.scss` entry point, triggers rebuild on change.
+Watches `styles/vendors/uswds/styles.scss` entry point, triggers rebuild on change in `styles/vendors/uswds` directory.
 
 ```shell
 npm run uswds
