@@ -1,8 +1,7 @@
-/* The USWDS Compile tool looks for this file as the SASS entry point*/
+/* Project SASS entry point */
 
 @forward "abstracts";
 @forward "base";
 @forward "components";
 @forward "layouts";
 @forward "utilities";
-@forward "vendors";

@@ -1,6 +1,6 @@
 import * as z from "@zod/mini";
 
-import { sayHi, sayGoodbye } from "./utils.js";
+import { sayHi } from "./utils.js";
 
 const mySchema = z.nullable(z.optional(z.string()));
 
@@ -14,6 +14,5 @@ else {
   const issues = result.error.issues;
   for (const issue of issues) {
     console.error("Validation Error:", issue);
-    sayGoodbye();
   }
 }

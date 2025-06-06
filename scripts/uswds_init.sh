@@ -7,8 +7,8 @@ PROJECT_DIR="$(readlink -f "$SCRIPT_DIR/../")"
 pushd $PROJECT_DIR
 npx gulp init
 
-# We setup our root SASS file so we need to revert the changes from `uswds-compile`
-rm styles/_uswds-theme.scss
-rm styles/_uswds-theme-custom-styles.scss
-git restore styles/styles.scss
+# We need to revert the changes from `uswds-compile`
+git restore styles/vendors/uswds/_uswds-theme.scss
+git restore styles/vendors/uswds/_uswds-theme-custom-styles.scss
+git restore styles/vendors/uswds/styles.scss
 popd

@@ -39,14 +39,14 @@ uswds.paths.src.js = "./node_modules/@uswds/uswds/dist/js";
 
 // Source location of any existing project Sass files outside of paths.dist.theme.
 // The watch script will watch this directory for changes.
-uswds.paths.src.projectSass = "./styles";
+uswds.paths.src.projectSass = "styles";
 
 // Source location of any additional project icons to include in the icon sprite.
 // (Use only these project icons in the sprite by setting sprite.projectIconsOnly to true.)
 uswds.paths.src.projectIcons = "./public/icons";
 
 // Project destination for theme files (Sass entry point and settings)
-uswds.paths.dist.theme = "./styles";
+uswds.paths.dist.theme = "./styles/vendors/uswds";
 
 // Project destination for images
 uswds.paths.dist.img = "./public/img";

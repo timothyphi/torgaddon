@@ -57,19 +57,25 @@ npm run build
 
 ### Step 6. (Option 2) Run tools in development
 
-Watches `server` directory, triggers rebuild on change
+Watches `server` directory, triggers rebuild on change.
 
 ```shell
 npm run server
 ```
 
-Watches `styles` directory, triggers rebuild on change
+Watches `styles/main.scss` entry point, triggers rebuild on change.
 
 ```shell
 npm run scss
 ```
 
-Watches `browser` directory, triggers rebuild on change
+Watches `styles/vendors/uswds/styles.scss` entry point, triggers rebuild on change.
+
+```shell
+npm run uswds
+```
+
+Watches `browser` directory, triggers rebuild on change.
 
 ```shell
 npm run ts

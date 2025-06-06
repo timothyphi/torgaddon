@@ -6,4 +6,4 @@ function sayGoodbye(): void {
   console.log("goodbye moon!");
 }
 
-export { sayHi, sayGoodbye };
+export { sayHi };

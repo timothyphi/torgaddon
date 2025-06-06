@@ -5,9 +5,6 @@ USWDS with settings overrides
 Uncomment the following lines and add a list of changed settings
 in the form $setting: value,
 ----------------------------------------
-
-https://designsystem.digital.gov/documentation/settings/#general-settings-2
-
 */
 
 //
@@ -16,3 +13,7 @@ https://designsystem.digital.gov/documentation/settings/#general-settings-2
 //    $setting: value
 //  );
 //
+
+h2 {
+    color: blue;
+}
