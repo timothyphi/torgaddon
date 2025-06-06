@@ -2,7 +2,7 @@
 
 A project template utilizing [Axum](https://github.com/tokio-rs/axum) as the backend application server, [Askama](https://github.com/askama-rs/askama) for HTML templating, SASS partials for the organizing stylesheets along with [USWDS](https://designsystem.digital.gov/) as a starter design system, and TypeScript with [Vite](https://vite.dev/) for the bundled, client-side, browser code.
 
-## Developer (System) Requirements
+## Development Requirements
 
 These aren't actually hard requirements, just what's on my machine
 
@@ -15,7 +15,7 @@ These aren't actually hard requirements, just what's on my machine
 
 - TBD
 
-## Initial Setup for Development
+## Development Setup
 
 ### Step 1. Install Rust (or update to at least the version listed above)
 
