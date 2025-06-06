@@ -115,7 +115,7 @@ Check [achecker npm listing](https://www.npmjs.com/package/accessibility-checker
 
 It's recommended to build the server binary ([step 2](#step-2-build-axum-backend)) and browser assets ([step 3](#step-3-install-javascript-dependencies), [step 4](#step-4-initialize-uswds), and [step 6](#step-6-build-browser-code)) on a seperate machine.
 
-1. Move those assets in `public` to the production machine
+1. Move `public` assets and server binary to the production machine
 
 1. Configure the environment file ([step 5](#step-5-configure-environment-file))
 
