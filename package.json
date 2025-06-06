@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "server": "cd server && cargo run",
+    "server:watch": "echo \"Error: not yet implemented\" && exit 1",
     "scss": "npx sass styles/main.scss public/css/bundle.css --watch",
     "uswds": "npx gulp watch",
     "ts": "npx vite build --watch",
